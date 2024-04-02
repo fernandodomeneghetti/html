@@ -1,3 +1,5 @@
+## Cascading Style Sheets
+
 CSS, ou Cascading Style Sheets, é uma linguagem de estilo usada para descrever a aparência de um documento escrito em HTML ou XML. CSS descreve como os elementos devem ser renderizados na tela, no papel, na fala ou em outras mídias.
 
 Exemplo de CSS:
@@ -57,5 +59,13 @@ Exemplo:
 button:hover {
     background-color: #ddd;
     transition: background-color 0.3s ease;
+}
+```
+
+5. Seletores avançados: Você pode usar seletores avançados para estilizar elementos com base em suas relações com outros elementos ou em seu estado.
+Exemplo:
+```css
+ul li:nth-child(even) {
+    background-color: lightgray;
 }
 ```
