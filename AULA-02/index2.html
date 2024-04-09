@@ -5,64 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site HTML</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            align-items: center;
-            text-align: center;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        section h2 {
-            margin-bottom: 10px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .service {
-            position: relative;
-            float: left;
-            background-color: #c0bdbd;
-            width: 20%;
-        }
-
-        .home {
-            padding-left: 40px;
-            position: relative;
-            float: left;
-            width: 70%;
-        }
+       
     </style>
 </head>
 <body>
@@ -88,7 +31,7 @@
     </section>
 
     
-    <section id="home" class="home">
+    <main id="home" >
         <h2>Bem-vindo ao Meu Site</h2>
         <p>Este é um site de exemplo criado usando HTML.</p>
 
@@ -100,24 +43,11 @@
             <option value="Opera">
             <option value="Safari">
         </datalist>
-    </section>
+    </main>
 
    
 
-    <section id="contact" class="form">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco:</p>
-        <form action="/submit_form" method="post">
-            <label for="name">Nome:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="message">Mensagem:</label><br>
-            <textarea id="message" name="message" rows="4" cols="30"></textarea><br>
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
-
+   
     <footer>
         &copy; 2024 Meu Site. Todos os direitos reservados.
     </footer>
