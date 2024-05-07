@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    debugger;
 
     // Endpoint da API
     const apiUrl = 'http://localhost:3000/livros';
@@ -59,9 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .catch(error => console.error('Erro ao adicionar o livro:', error));
     });
 
-    // Devolver livro
     document.addEventListener('click', function (event) {
-        debugger;
         if (event.target.classList.contains('btn-devolver')) {
             const livroId = event.target.getAttribute('data-id');
             devolverLivro(livroId);
