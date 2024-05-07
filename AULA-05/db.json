@@ -1,0 +1,22 @@
+{
+  "livros": [
+    {
+      "id": "40da",
+      "nome": "Livro 1",
+      "autor": "Fernando",
+      "disponivel": false
+    },
+    {
+      "id": "302f",
+      "nome": "Livro 2",
+      "autor": "Fernando 2",
+      "disponivel": true
+    },
+    {
+      "id": "2a76",
+      "nome": "hghghgh",
+      "autor": "ygfygyg",
+      "disponivel": true
+    }
+  ]
+}
