@@ -1,0 +1,10 @@
+{
+    'livros': [
+        {
+            "id": "40da",
+            "nome": "Livro 1",
+            "autor": "Autor Fulano",
+            "disponivel": true
+        }
+    ]
+}
