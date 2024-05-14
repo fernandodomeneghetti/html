@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br" style="height: 100%;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site HTML</title>
+    <title>Faculdade XYZ</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -47,65 +48,66 @@
             padding: 20px;
             text-align: center;
         }
+
+        button:hover {
+            background-color: #ddd;
+            transition: background-color 0.3s ease;
+        }
+
+        ul li:nth-child(even) {
+            background-color: lightgray;
+        }
     </style>
+
 </head>
 <body>
     <header>
-        <h1>Meu Site</h1>
+        <h1>Faculdade XYZ</h1>
+
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="/about.html">Sobre</a></li>
+                <li><a href="/services.html">Serviços</a></li>
+                <li><a href="/index.html">Biblioteca</a></li>
+                <li><a href="/contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
+    
+    <main>
+        <section>
+            <h2>Bem-vindo à Faculdade XYZ</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc non tincidunt ultrices, nisl nunc aliquet nunc, id aliquam nunc nunc id nunc. Sed auctor, nunc non tincidunt ultrices, nisl nunc aliquet nunc, id aliquam nunc nunc id nunc.</p>
+        </section>
 
-    <section id="services">
-        <h2>Serviços</h2>
-        <ul>
-            <li>Web Design</li>
-            <li>Desenvolvimento Web</li>
-            <li>Hospedagem de Sites</li>
-        </ul>
-    </section>
-
-    <section id="home">
-        <h2>Bem-vindo ao Meu Site</h2>
-        <p>Este é um site de exemplo criado usando HTML.</p>
-
-        <input list="browsers">
-        <datalist id="browsers">
-            <option value="Internet Explorer">
-            <option value="Firefox">
-            <option value="Chrome">
-            <option value="Opera">
-            <option value="Safari">
-        </datalist>
-    </section>
-
-    <section id="about">
-        <h2>Sobre</h2>
-        <p>Este é um site fictício usado para demonstrar as tags e estruturas em HTML.</p>
-    </section>
-
-    <section id="contact" class="form">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco:</p>
-        <form action="/submit_form" method="post">
-            <label for="name">Nome:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="message">Mensagem:</label><br>
-            <textarea id="message" name="message" rows="4" cols="30"></textarea><br>
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
+        <section>
+            <h2>Bem-vindo ao Meu Site</h2>
+            <p>Este é um site de exemplo criado usando HTML.</p>
+    
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+        </section>
+        
+        <article>
+            <h3>Notícia</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc non tincidunt ultrices, nisl nunc aliquet nunc, id aliquam nunc nunc id nunc.</p>
+        </article>
+    </main>
+    
+    <aside>
+        <h3>Informações adicionais</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc non tincidunt ultrices, nisl nunc aliquet nunc, id aliquam nunc nunc id nunc.</p>
+    </aside>
 
     <footer>
-        &copy; 2024 Meu Site. Todos os direitos reservados.
+        &copy; 2022 Faculdade XYZ. Todos os direitos reservados.
     </footer>
 </body>
 </html>
